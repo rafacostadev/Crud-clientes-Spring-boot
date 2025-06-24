@@ -38,7 +38,7 @@ A API permite:
 
 ## 🔐 Validações
 
-- **Nome:** Não pode ser vazio.
+- **Nome:** Não pode ser vazio.(`@NotBlank`).
 - **Data de Nascimento:** Não pode ser uma data futura (`@PastOrPresent`).
 
 ## ❗ Tratamento de Erros
